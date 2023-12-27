@@ -4,7 +4,11 @@
 using namespace std;
 int main()
 {
-    TwoStrings aut;
-    aut.checkTwoStrings();
+ SubstringSearch automato;
+ automato.client();
+ automato.setTransitionTable();
+ automato.solution();
+ TwoStrings aut;
+ aut.checkTwoStrings();
 }
 
